@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C7582881CD037DF0061955F /* miting.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C7582871CD037DF0061955F /* miting.jpg */; };
 		2CE16C461CD033CE0089A722 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE16C451CD033CE0089A722 /* main.m */; };
 		2CE16C491CD033CE0089A722 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE16C481CD033CE0089A722 /* AppDelegate.m */; };
 		2CE16C4C1CD033CE0089A722 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE16C4B1CD033CE0089A722 /* ViewController.m */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C7582871CD037DF0061955F /* miting.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = miting.jpg; sourceTree = "<group>"; };
 		2CE16C411CD033CE0089A722 /* HomeWork1DmitriyBelyaev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWork1DmitriyBelyaev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE16C451CD033CE0089A722 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2CE16C471CD033CE0089A722 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		2CE16C431CD033CE0089A722 /* HomeWork1DmitriyBelyaev */ = {
 			isa = PBXGroup;
 			children = (
+				2C7582871CD037DF0061955F /* miting.jpg */,
 				2CE16C471CD033CE0089A722 /* AppDelegate.h */,
 				2CE16C481CD033CE0089A722 /* AppDelegate.m */,
 				2CE16C4A1CD033CE0089A722 /* ViewController.h */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CE16C541CD033CE0089A722 /* LaunchScreen.storyboard in Resources */,
+				2C7582881CD037DF0061955F /* miting.jpg in Resources */,
 				2CE16C511CD033CE0089A722 /* Assets.xcassets in Resources */,
 				2CE16C4F1CD033CE0089A722 /* Main.storyboard in Resources */,
 			);
@@ -264,6 +268,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HomeWork1DmitriyBelyaev/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DB.HomeWork1DmitriyBelyaev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,6 +280,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HomeWork1DmitriyBelyaev/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DB.HomeWork1DmitriyBelyaev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +306,7 @@
 				2CE16C5A1CD033CE0089A722 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
